@@ -1,0 +1,53 @@
+[General]
+version=0.19.1
+
+[view]
+scale=1
+rect=@Variant(\0\0\0\x14@$\0\0\0\0\0\0@$\0\0\0\0\0\0@\x92\x8c\0\0\0\0\0@\x89\x30\0\0\0\0\0)
+transform=@Variant(\0\0\0Q?\xf0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0?\xf0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0?\xf0\0\0\0\0\0\0)
+
+[nodes]
+nodelist\1\source_uri=https://github.com/mapclient-plugins/mapclientplugins.imagesourcestep
+nodelist\1\name=Image Source
+nodelist\1\position=@Variant(\0\0\0\x1a@g`\0\0\0\0\0@v\xe0\0\0\0\0\0)
+nodelist\1\selected=false
+nodelist\1\identifier=Image_Source
+nodelist\1\unique_identifier=48889a9a-5db8-11ee-a89d-000c6c0a92da
+nodelist\1\connections\1\connectedFromIndex=0
+nodelist\1\connections\1\connectedTo=1
+nodelist\1\connections\1\connectedToIndex=0
+nodelist\1\connections\1\selected=false
+nodelist\1\connections\size=1
+nodelist\2\name=Automatic Segmenter
+nodelist\2\position=@Variant(\0\0\0\x1a@z\xc0\0\0\0\0\0@v\xe0\0\0\0\0\0)
+nodelist\2\selected=false
+nodelist\2\identifier=Automatic_Segmenter
+nodelist\2\unique_identifier=492df79e-5db8-11ee-964b-000c6c0a92da
+nodelist\2\connections\1\connectedFromIndex=1
+nodelist\2\connections\1\connectedTo=2
+nodelist\2\connections\1\connectedToIndex=0
+nodelist\2\connections\1\selected=false
+nodelist\2\connections\2\connectedFromIndex=2
+nodelist\2\connections\2\connectedTo=2
+nodelist\2\connections\2\connectedToIndex=2
+nodelist\2\connections\2\selected=false
+nodelist\2\connections\size=2
+nodelist\3\source_uri=
+nodelist\3\name=Point Cloud Partitioner
+nodelist\3\position=@Variant(\0\0\0\x1a@\x85\xe8\0\0\0\0\0@v\xe0\0\0\0\0\0)
+nodelist\3\selected=false
+nodelist\3\identifier=Point_Cloud_Partitioner
+nodelist\3\unique_identifier=4dd3a344-5db8-11ee-a577-000c6c0a92da
+nodelist\3\connections\1\connectedFromIndex=1
+nodelist\3\connections\1\connectedTo=3
+nodelist\3\connections\1\connectedToIndex=0
+nodelist\3\connections\1\selected=false
+nodelist\3\connections\size=1
+nodelist\4\source_uri=https://github.com/mapclient-plugins/mapclientplugins.filelocationsinkstep
+nodelist\4\name=File Location Sink
+nodelist\4\position=@Point(937 366)
+nodelist\4\selected=false
+nodelist\4\identifier=File_Location_Sink
+nodelist\4\unique_identifier=4ff17476-5db8-11ee-b615-000c6c0a92da
+nodelist\4\connections\size=0
+nodelist\size=4
